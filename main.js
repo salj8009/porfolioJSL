@@ -126,8 +126,11 @@ function createMenu() {
     headerNav.appendChild(fragment);
 } 
 createMenu();
-/*
+btnChange.addEventListener('click' , () => {
+    contentHome.classList.toggle('content-home-dark');
+});
 
+/*
 //email 
 (function() {
     // https://dashboard.emailjs.com/admin/account
