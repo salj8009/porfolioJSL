@@ -128,6 +128,13 @@ function createMenu() {
 createMenu();
 btnChange.addEventListener('click' , () => {
     contentHome.classList.toggle('content-home-dark');
+    containerTitle.classList.toggle('container-title-dark');
+    developerTitle.classList.toggle('developer-dark');
+    devParrafo.classList.toggle('dev-p-dark');
+    contentAbout.classList.toggle('content-about-dark');
+    aboutText.classList.toggle('about-text-dark');
+    contentContact.classList.toggle('content-contact-dark');
+    btnChange.classList.toggle('btn-change-dark');
 });
 
 /*

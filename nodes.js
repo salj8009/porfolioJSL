@@ -5,7 +5,10 @@ const contentProjects = document.querySelector('.content-projects');
 const contentContact = document.querySelector('.content-contact');
 
 const btnChange = document.querySelector('.btn-change');
-
+const containerTitle = document.querySelector('.container-title');
+const developerTitle = document.querySelector('.developer');
+const devParrafo = document.querySelector('.dev-p');
+const aboutText= document.querySelector('.about-text');
 //const btnAbout = document.querySelector('.btn-About');
 //const btnHome = document.querySelector('.btn-Home');
 //const btnProyects = document.querySelector('.btn-proyects');
