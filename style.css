@@ -81,13 +81,12 @@ h1 {
     margin-bottom: 20px;
     color: var(--azulFuerte);
 }
-/*.aboout-text {
+.dev-p {
     font-size: clamp(2rem, 2vw + 1rem, 14rem);
     font-weight: bold;
     color: var(--azulFuerte);
-}*/
-.content-about{
-    background-color: var(--blanco);
+}
+.content-about{    
     width: 100%;
     height: 100vh;
     background-image: url('./assets/Web-Developer_Flatline.svg');
@@ -95,6 +94,7 @@ h1 {
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
+    background-color: var(--blanco);
 }
 .content-projects {
     width: 100%;
@@ -182,8 +182,7 @@ h1 {
     cursor: pointer;
 
 }
-.content-contact {
-    background-color: var(--blanco);
+.content-contact {    
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -192,6 +191,7 @@ h1 {
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
+    background-color: var(--blanco);
 }
  .env-form {
     background-color: var(--amarillo);
