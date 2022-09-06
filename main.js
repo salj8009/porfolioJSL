@@ -133,6 +133,7 @@ btnChange.addEventListener('click' , () => {
     devParrafo.classList.toggle('dev-p-dark');
     contentAbout.classList.toggle('content-about-dark');
     aboutText.classList.toggle('about-text-dark');
+    titleSkils.classList.toggle('title-skils-dark');
     contentContact.classList.toggle('content-contact-dark');
     btnChange.classList.toggle('btn-change-dark');
 });
