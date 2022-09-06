@@ -87,6 +87,7 @@ h1 {
     color: var(--azulFuerte);
 }*/
 .content-about{
+    background-color: var(--blanco);
     width: 100%;
     height: 100vh;
     background-image: url('./assets/Web-Developer_Flatline.svg');
@@ -182,6 +183,7 @@ h1 {
 
 }
 .content-contact {
+    background-color: var(--blanco);
     position: absolute;
     width: 100%;
     height: 100vh;
